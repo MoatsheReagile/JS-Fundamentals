@@ -4,11 +4,8 @@ let i = 0;
 let output = "";
 
 while (i < lines.length) {
-  output += lines[i];
-  if (i !== lines.length - 1) {
-    output += "\n";
-  }
+  output += lines[i] + "\n";
   i++;
 }
 
-console.log(output);
+console.log(output.trim());
